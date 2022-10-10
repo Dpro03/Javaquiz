@@ -7,43 +7,43 @@ const leaderboardCard = document.getElementById("leaderboard-card");
 const questions = [
   {
     question: "Which of the following is not a JavaScript data type?",
-    choices: ["1. null", "2. undefined", "3. number", "4. all of the above"],
-    answer: "4. all of the above",
+    choices: ["a. null", "b. undefined", "c. number", "d. all of the above"],
+    answer: "d. all of the above",
   },
   {
     question: "Which of the following is correct about JavaScript?",
     choices: [
-      "1. JavaScript is an Object-Based language",
-      "2. JavaScript is an Assembly language",
-      "3. JavaScript is an Object-Oriented language",
-      "4. JavaScript is a High-Level language",
+      "a. JavaScript is an Object-Based language",
+      "b. JavaScript is an Assembly language",
+      "c. JavaScript is an Object-Oriented language",
+      "d. JavaScript is a High-Level language",
     ],
-    answer: "1. JavaScript is an Object-Based language",
+    answer: "a. JavaScript is an Object-Based language",
   },
   {
     question: "Arrays in JavaScript are defined by which statement?",
     choices: [
-      "1. An ordered list of values",
-      "2. An ordered list of objects",
-      "3. An ordered list of strings",
-      "4. An ordered list of functions",
+      "a. An ordered list of values",
+      "b. An ordered list of objects",
+      "c. An ordered list of strings",
+      "d. An ordered list of functions",
     ],
-    answer: "1. An ordered list of values",
+    answer: "a. An ordered list of values",
   },
   {
     question: "Which of the following is not an error in JavaScript?",
     choices: [
-      "1. Missing a bracket",
-      "2. Division by zero",
-      "3. Syntax error",
-      "4. Missing semicolon",
+      "a. Missing a bracket",
+      "b. Division by zero",
+      "c. Syntax error",
+      "d. Missing semicolon",
     ],
-    answer: "2. Division by zero",
+    answer: "b. Division by zero",
   },
   {
     question: "What event occurs when the user clicks on an HTML element?",
-    choices: ["1. onMouseClick", "2. onClick", "3. onMouseOver", "4. onChange"],
-    answer: "1. onMouseClick",
+    choices: ["a. onMouseClick", "b. onClick", "c. onMouseOver", "d. onChange"],
+    answer: "a. onMouseClick",
   },
 ];
 
@@ -261,7 +261,7 @@ function returnToStart() {
 
 //use link to view the highscores
 const leaderboardLink = document.getElementById("leaderboard-Link");
-leaderboardCard.addEventListener("click", showLeaderboard);
+leaderboardLink.addEventListener("click", showLeaderboard);
 
 function showLeaderboard() {
   hideCards();
