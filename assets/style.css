@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    background-color: #d0ce92;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #404c44;
+    color: #ffffff;
+    padding: 3vh;
+}
+
+time {
+    min-width: 85px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: block;
+    color: #ffffff;
+    background-color: #6c390f;
+    padding: 2vh;
+    border-radius: 20px;
+    border: none;
+}
+
+.inline-buttons {
+    display: inline-flex;
+}
+
+.container {
+    max-width: 80%;
+    margin-top: 15vh;
+    border: solid;
+    border-width: 3px;
+    padding: 5vw;
+    border-radius: 30px;
+    border-color: rgb(84, 57, 57);
+    box-shadow: 10px 5px 5px rgb(165, 135, 135);
+}
+
+#start-screen {
+    display: inline;
+    text-align: center;
+}
+
+.choice-button {
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+}
+
+#result-div {
+    display: none;
+}
+
+.inline-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#initials {
+    width: 20%;
+    margin: 8px;
+    padding: 1vh;
+}
+
+#back-button {
+    margin-right: 8px;
+}
+
+.highscore-list {
+    padding-inline-start: 20px;
+}
+
+
+@media screen and (min-width: 850px) {
+    .card {
+        max-width: 680px;
+    }
+}
+
+@media (hover) {
+
+    a:hover {
+        color: rgb(255, 98, 0);
+    }
+
+    button:hover {
+        background-color: rgb(72, 68, 66);
+    }
+}
