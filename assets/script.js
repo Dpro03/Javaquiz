@@ -3,6 +3,14 @@ const startCard = document.getElementById("start-card");
 const questionCard = document.getElementById("question-card");
 const scoreCard = document.getElementById("score-card");
 const leaderboardCard = document.getElementById("leaderboard-card");
+
+//this hides the cards
+function hideCards() {
+  startCard.setAttribute("hidden", true);
+  questionCard.setAttribute("hidden", true);
+  scoreCard.setAttribute("hidden", true);
+  leaderboardCard.setAttribute("hidden", true);
+}
 //store questions here
 const questions = [
   {
@@ -46,14 +54,6 @@ const questions = [
     answer: "a. onMouseClick",
   },
 ];
-
-//this hides the cards
-function hideCards() {
-  startCard.setAttribute("hidden", true);
-  questionCard.setAttribute("hidden", true);
-  scoreCard.setAttribute("hidden", true);
-  leaderboardCard.setAttribute("hidden", true);
-}
 
 const resultDiv = document.getElementById("result-div");
 const resultText = document.getElementById("result-text");
